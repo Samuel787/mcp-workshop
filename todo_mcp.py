@@ -14,7 +14,7 @@ class Todo(NamedTuple):
     line_num: int
 
 
-todo_db = TodoDB()
+todo_db = TodoDB(db_file=DB_FILE)
 # todo_db.sample_data()
 
 # Create the MCP server
