@@ -68,7 +68,7 @@ def get_todos_for_file(
     return [ text for text in todo.values() ]
 
 # Start the MCP server
-def run():
+def main():
     mcp.run()
 
 if __name__ == "__main__":
